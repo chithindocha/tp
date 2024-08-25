@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-app.use(cors({
-    origin: ['http://localhost:3000', 'https://frontend-rho-tawny.vercel.app/']
-  }));
+// app.use(cors({
+//     origin: ['http://localhost:3000', 'https://frontend-rho-tawny.vercel.app/']
+//   }));
 
 const app = express();
 const PORT = 5000;
